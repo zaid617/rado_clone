@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.first div h6{
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #141414;
+}
+.second ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+.second ul li{
+    margin-left: 25px;
+    margin-right: 30px;
+
+}
+.second ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.second ul li a:hover{
+    border-bottom: 2px solid white;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    margin-right: 417px;
+   
+
+}
+.logo div h5{
+    color:white;
+    font-size: 11px;
+    letter-spacing: 5px;
+    
+}.logo div h3{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 8px;
+    
+}
+.mag{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.second  div i{
+    color: white;
+    
+}
+#main_pic::before{
+    content: "";
+    position: absolute;
+    background: url("https://www.rado.com/media/sgecom_contentsystem/Campaigns/Mothersday/true-thinline-les-couleurs-le-corbusier-a.jpg?im=Resize=(1800,655),aspect=fill;Crop=(0,0,1800,655),gravity=Center") no-repeat center/cover;
+    width: 100%;
+    height: 500px;
+    opacity: 0.91;
+    z-index: -2;
+}
+#main_pic h1{
+    text-align: center;
+    font-size: 78px;
+    padding-top: 350px ;
+    color: white;
+    z-index: 10;
+    text-shadow: #141414 5px 6px 19px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+
+}.btn2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: #141414;
+    border: 2px solid black;
+}.btn2:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+}
+.box{
+    margin-top: 30px;
+    background-color: black;
+}
+.pics{
+    display: flex;
+    justify-content: space-between;
+}
+.pic img{
+    width: 99%;
+}
+.pics div h2{
+    color: white;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 130px;
+    line-height: 80px;
+    font-size: 28px;
+    background-color: black;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.box1part{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+
+}
+.gifts div{
+   
+   padding: 150px; 
+   font-size: 1.7rem;
+    
+}
+.gifts div a{
+    color: black;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    padding: 130px;
+    line-height: 30px;
+    background-color: #f2f2f2;
+}
+.text h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.text h2{
+    font-weight: 300;
+    text-align: center;
+}
+.swiss{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.swiss div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.swiss span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+}
+.swiss span h2{
+    margin-bottom: 30px;
+    font-size: 37px;
+}
+
+.swiss span p{
+    
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #141414;
+    padding: 50px;
+}
+footer div{
+    color: #ffffff;
+    
+}footer div ul{
+    color: #c2c9cb;
+    list-style: none;
+   
+    padding-top: 20px;
+}
+.icons{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}.icon{
+    color: white;
+    font-size: 18px;
+    
+}
+
