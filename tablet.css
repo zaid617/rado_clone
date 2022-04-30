@@ -1,0 +1,91 @@
+.second{
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    line-height: 30px;
+}
+.logo{
+    order: -10;
+    margin-left: -8px;
+}
+.mag{
+    order: -11;
+    position: relative;
+    top:50;
+    left: 97%;
+}
+#main_pic::before {
+    height: 482px;
+}
+#main_pic h1 {
+    font-size: 43px;
+}
+.pics{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pic img{
+    width: 300px;
+
+}
+.pics div h2 {
+    color: white;
+    font-size: 19px;
+}
+.btn{
+    height: 33px;
+    width: 129px;
+    font-weight: 400;
+}.btn2{
+    height: 44px;
+    width: 125px;
+    font-weight: 600;
+}
+.features h2{
+    font-size: 34px;
+}
+.features h4{
+    font-size: 14px;
+}
+.gifts div {
+    padding: 42px;
+    font-size: 0.59rem;
+}
+.gifts img {
+    padding-top: 24px;
+    width: 247px;
+}
+.text h1 {
+    font-size: 32px;
+    margin-bottom: 41px;
+}.text h2 {
+    font-size: 20px;
+}
+.text{
+    padding: 60px;
+}
+.swiss div{
+    font-size: 11px;
+}
+.swiss span h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.swiss span p {
+    text-align: center;
+    font-size: 11px;
+}
+
+footer div {
+    font-size: 11px;
+}
+.icon {
+    color: white;
+    font-size: 11px;
+}

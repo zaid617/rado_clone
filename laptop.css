@@ -1,0 +1,25 @@
+#main_pic::before {
+    height: 602px;
+}
+.second ul li {
+    margin-left: 16px;
+    margin-right: 10px;
+}
+#main_pic h1 {
+    font-size: 63px;
+}
+.gifts img {
+    padding-top: 80px;
+    width: 420px;
+}
+.gifts div {
+    padding: 79px;
+    font-size: 0.99rem;
+}
+.swiss span{
+    padding: 10px;
+    width: 300px;
+}
+.logo{
+    margin-left: -165px;
+}
